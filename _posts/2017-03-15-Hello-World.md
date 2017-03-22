@@ -9,7 +9,7 @@ tags: [Test]
 icon: icon-Life
 ---
 
-*This is my first blog writed by markdown.*
+*This is my first blog wrote by markdown.*
 
 
 
