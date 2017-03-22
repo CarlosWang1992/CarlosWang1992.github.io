@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+
+	
+		<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta content="Carlos's blog,use Jekyll and github pages." name="description">
+  <meta name="keywords" content="Carlos ,Jalpc,blog,Jekyll,github,gh-pages">
+  <meta name="author" content="Carlos Wang">
+  <title>Carlos's Site</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/static/assets/img/favicon.ico">
+
+  <!-- Main CSS -->
+  <link href="/static/assets/app-20170307.min.css" rel="stylesheet">
+
+  <!-- Main scripts -->
+  <script src="/static/assets/app-index-20170307.min.js"></script>
+  
+  <script async defer src="/static/js/github_api.min.js"></script>
+  
+  
+  <script src="/static/assets/i18-20170307.min.js"></script>
+  
+</head>
+
+	
+
+<body id="page-top" class="landing-page">
+
+	
+
+        <div class="navbar-wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">Carlos's Site</span></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right" id="i18_navbar">
+                
+                    <li>
+                      <a class="page-scroll" href="#about-me">
+                        <span data-i18n="nav.about_me">About</span>
+                      </a>
+                    </li>
+                
+                    <li>
+                      <a class="page-scroll" href="#projects">
+                        <span data-i18n="nav.projects">Projects</span>
+                      </a>
+                    </li>
+                
+                    <li>
+                      <a class="page-scroll" href="#blog">
+                        <span data-i18n="nav.blog">Blog</span>
+                      </a>
+                    </li>
+                
+                    <li>
+                      <a class="page-scroll" href="#links">
+                        <span data-i18n="nav.link">Links</span>
+                      </a>
+                    </li>
+                
+
+                
+                  <li>
+                    <a id="set_lang_zh" class="btn btn-sm set_zh" data-locale="zh">
+                      <img src="/static/assets/img/flags/China.png" height="16px" width="16px">
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a id="set_lang_en" class="btn btn-sm set_en" data-locale="en">
+                      <img src="/static/assets/img/flags/United-States.png" height="16px" width="16px">
+                    </a>
+                  </li>
+                
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#inSlider" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="container">
+                <div class="carousel-caption">
+                </div>
+                <div class="carousel-image wow zoomIn">
+                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back one"></div>
+        </div>
+        <div class="item">
+            <div class="container">
+                <div class="carousel-caption blank">
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back two"></div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+  
+  <section id="about-me" class="features  " style="margin-top: 0;">
+    <div class="container" id="i18_about_me">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="about_me.about_me">About Me</span></h1>
+            <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
+        </div>
+    </div>
+    <div class="row">
+        <!-- first two icons -->
+        
+        <div class="col-xs-2 wow fadeInLeft">
+            <div class="team-member">
+                <div class="vote-icon">
+                    <i class="fa icon-apache"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-xs-2 wow fadeInLeft">
+            <div class="team-member">
+                <div class="vote-icon">
+                    <i class="fa fa-linux"></i>
+                </div>
+            </div>
+        </div>
+        
+        <!-- avatar -->
+        <div class="col-xs-4">
+            <div class="team-member wow zoomIn">
+                <img src="/static/assets/img/landing/avatar.jpg" height="110" width="110" class="img-responsive img-circle" alt="">
+                <h4><span class="navy">Carlos</span> Wang</h4>
+                <ul class="list-inline social-icon">
+                    
+                    <li><a href="https://github.com/CarlosWang1992" target="blank"><i class="fa fa-github"></i></a></li>
+                    
+                    
+                    
+                    <li><a href="https://www.facebook.com/carcarloswang" target="blank"><i class="fa fa-facebook"></i></a></li>
+                    
+                    
+                    <li><a href="https://twitter.com/carcarlos_one" target="blank"><i class="fa fa-twitter"></i></a></li>
+                    
+                    
+                    <li><a href="mailto:carcarloswang@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    
+                    <li><a href="/feed.xml" target="blank"><i class="fa fa-rss"></i></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- second two icons -->
+        
+        <div class="col-xs-2 wow fadeInRight">
+            <div class="team-member">
+                <div class="vote-icon">
+                    <i class="fa fa-linux"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-xs-2 wow fadeInRight">
+            <div class="team-member">
+                <div class="vote-icon">
+                    <i class="fa icon-apache"></i>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
+            <p><span data-i18n="about_me.des">单身🐶</span></p>
+        </div>
+    </div>
+</div>
+
+  </section>
+
+  
+  <section id="projects" class="features  gray-section  project" style="margin-top: 0;">
+    <div class="container" id="i18_projects">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="projects.my_projects">My Projects</span></h1>
+        </div>
+    </div>
+    <div class="row">
+        
+            
+            
+                
+            <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+                
+            
+              <div class="team-member">
+                  <img src="/static/assets/img/landing/familycode.png" class="img-responsive img-circle img-small" alt="">
+                  <h4>
+                  
+                  <span class="navy">FamilyCode Wechat</span>
+                  
+                  </h4>
+                  <p><span data-i18n="projects.familycode">This is a shopping mall in wechat, it promotes gene detection. Since time is precious, I write this website with Django, jQuery, weui. This is WuxiNextcode's major product. You can scan project's picture by wechat.</span></p>
+                  
+              </div>
+          </div>
+      
+    </div>
+</div>
+<br>
+
+  </section>
+
+  
+  <section id="blog" class="features  testimonials navy-section" style="margin-top: 0;">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
+            <div style="height: 80px;"></div>
+            <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="/blog/"><span data-i18n="blog.my_blog">My Blog</span></a>
+            <div style="height: 80px;"></div>
+        </div>
+    </div>
+</div>
+
+  </section>
+
+  
+  <section id="links" class="features  gray-section  contact" style="margin-top: 0;">
+    <div class="container" id="i18_link">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="link.link">Link</span></h1>
+        </div>
+    </div>
+    <div class="row">
+    
+        
+        
+            
+        <div class="col-sm-4 col-sm-offset-4 wow zoomIn">
+                
+        
+        <div class="team-member">
+            <h4><span class="navy">Tony</span> Pang</h4>
+            <p>Carlos's poor ugly Roommate.</p>
+            <ul class="list-inline social-icon">
+                <li><a href="http://www.pangxiangxiang.com" target="blank"><i class="fa fa-link"></i></a>
+                </li>
+                <li><a href="mailto:tonyscript@gmail.com"><i class="fa fa-envelope-o"></i></a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    
+    </div>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+            <p id="jalpc_site_pv"><strong>&copy; 2017 Carlos's Site</strong></p>
+        </div>
+    </div>
+</div>
+
+  </section>
+
+<style type="text/css">
+    iframe {
+  -moz-transform: scale(0.25, 0.25);
+  -webkit-transform: scale(0.25, 0.25);
+  -o-transform: scale(0.25, 0.25);
+  -ms-transform: scale(0.25, 0.25);
+  transform: scale(0.25, 0.25);
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+</style>
+<iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe>
+
+
+
+	
+		<!-- Google analytics -->
+
+
+<!-- GrowingIO -->
+
+
+
+	
+
+</body>
+</html>
