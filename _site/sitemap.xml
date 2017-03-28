@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
+        <loc>http://localhost:4000/life/2017/03/15/%E4%BD%A0%E9%82%A3%E4%B8%8D%E6%98%AF%E5%8A%A8%E7%94%BB%E7%BB%9A%E4%B8%BD-%E8%80%8C%E6%98%AF%E9%80%BB%E8%BE%91%E6%B7%B7%E4%B9%B1.html</loc>
+    </url>
+
+    <url>
         <loc>http://localhost:4000/life/2017/03/15/Hello-World.html</loc>
     </url>
 
